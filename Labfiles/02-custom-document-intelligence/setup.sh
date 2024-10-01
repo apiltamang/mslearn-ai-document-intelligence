@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Set variable values
-subscription_id="YOUR_SUBSCRIPTION_ID"
-resource_group="YOUR_RESOURCE_GROUP"
-location="YOUR_LOCATION_NAME"
-expiry_date="2024-01-01T00:00:00Z"
+subscription_id="717a21bf-3cd7-4ebc-83ee-515db77d24d3"
+resource_group="training-resource-group"
+location="eastus"
+expiry_date="2024-10-05T00:00:00Z"
 
 # Get random numbers to create unique resource names
 unique_id=$((1 + RANDOM % 99999))
